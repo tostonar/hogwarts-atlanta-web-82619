@@ -12,11 +12,11 @@ const Nav = (props) => {
 
 			<div class="ui checkbox">
 				<input onChange={props.filterPigs} name="sort" type="radio" class="hidden" readonly="" tabindex="0" />
-				<label>Show greased pigs </label>
+				<label> Show greased pigs </label>{" "}
 				<input onChange={props.alphabetizePigs} name="sort" type="radio" class="hidden" readonly="" tabindex="0" />
-				<label>Sort pigs alphabetically</label>
+				<label> Sort pigs alphabetically</label>{" "}
 				<input onChange={props.sortPigsByWeight} name="sort" type="radio" class="hidden" readonly="" tabindex="0" />
-				<label>Sort pigs by weight</label>
+				<label> Sort pigs by weight</label>
 			</div>
 
 		</div>

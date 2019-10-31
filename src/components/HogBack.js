@@ -9,6 +9,7 @@ const HogBack = (props) => {
       <p>Specialty: {props.piggy.specialty}</p>
       <p>Greased: {props.piggy.greased ? "Yes" : "No" }</p>
       <p>Weight: {props.piggy.weight}</p>
+      <p>Highest Medal Achieved: {props.piggy['highest medal achieved']}</p>
     </div>
   )
 
